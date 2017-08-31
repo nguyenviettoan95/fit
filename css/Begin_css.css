@@ -1,0 +1,574 @@
+/* ==========================================================================
+   Nguyen Trong Nghia
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
+html, body {
+    overflow-x: hidden;
+}
+a.right .carousel-cntrol .del{
+  background: transparent;
+}
+.container .container {
+    max-width: 1300px;
+    height: auto;
+}
+.container .container-fluid {
+    max-width: 1300px;
+    height: auto;
+    padding: 0px 15px;
+    margin: auto;
+}
+body {
+    font-size: 15px;
+    background: #fdfdfd;
+    font-family: "Open Sans", Tahoma, Arial, Sans-Serif;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid {
+    background: #691b1d;
+}
+header .head{
+  position: relative;
+  min-height: 90px;
+}
+header .head h1 {
+    padding: 20px 0px;
+    display: inline-block;
+}
+
+header .head h1 img {
+    width: 100%;
+
+}
+
+
+header .head button span.icon-bar {
+    background: #691b1d;
+}
+header .head button {
+    margin: 0px;
+    background: #fff568;
+}
+.collapse ul {
+    margin-bottom: 0px;
+}
+.collapse  ul li {
+    background: none;
+}
+.collapse  ul li a {
+    color: white;
+    padding: 10px 17px;
+    text-transform: uppercase;
+}
+.collapse  ul li a:hover {
+    background: none;
+    color: yellow;
+}
+
+header .hotline {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+}
+.banner{
+  display: flex;
+  justify-content: center;
+  background: #691b1d;
+  align-items: center;
+}
+.container-fluid{
+  padding:0px;
+}
+.baner img{
+  width: 100%;
+  height: auto;
+      width: 100%;
+
+}
+.product {
+    padding-top: 70px;
+   padding-bottom: 0px;
+
+
+}
+.container .product{
+      padding: 70px 15px 0px 15px;
+}
+.product h3 {
+    color: #fff568;
+}
+
+.product hr {
+    background: yellow;
+    float: left;
+    height: 2px;
+    width: 95px;
+}
+.container .product{
+  background-color: #691b1d;
+}
+.carousel{
+      margin-top: 40px;
+}
+.info{
+  background: white;
+  margin-top: 50px;
+}
+.info p{
+  color: #691b1d;
+  padding: 10px 15px;
+    border-bottom: 1px solid #691b1d;
+}
+h5{
+  font-size: 20px;
+    padding: 10px 15px;
+    background: #e1e1e1;
+    font-weight: bold;
+    margin:0px;
+    color: #691b1d;
+}
+.icon{
+  padding-top: 50px;
+    text-align: center;
+}
+.icon img{
+  margin: 0px 32px 50px 32px;
+}
+.infonsx{
+  color: #691b1d;
+  text-align: center;
+}
+.infonsx hr{
+  height: 2px;
+    width: 95px;
+    background: #691b1d;
+}
+.infonsx p{
+  margin-bottom: 26px;
+}
+#felling{
+  background-color:  #691b1d;
+  text-align: center;
+}
+
+.felling h3{
+  color:#fff568;
+}
+.felling hr{
+  background: yellow;
+    height: 2px;
+    width: 95px;
+}
+#felling-myCarousel.carousel.slide{
+  margin-top: 0px;
+  text-align: center;
+}
+.item p{
+  color:white;
+  text-align: center;
+}
+#comment{
+      padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ebebeb;
+}
+.item-comment{
+      padding: 0px 40px 0px 40px;
+}
+.item-comment .box{
+      position: relative;
+    padding: 60px 25px;
+    min-height: 320px;
+    background: #fff;
+    border-radius: 25px;
+    color: #959595;
+}
+.question{
+      margin-bottom: 25px;
+    font-weight: bold;
+    color: #691b1d;
+    font-size: 18px;
+}
+.A{
+  font-size: 18px;
+}
+}
+}
+.info-p {
+ margin:20px 100px 0px 0px;
+ }
+.email{
+  font-size: 14px;
+    font-style: italic;
+    color: #999 !important;
+        background: #ebebeb;
+}
+.member{
+  margin-right: 15px;
+}
+.member img{
+  float: right;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+  border: 2px solid #fff;
+}
+.info-p{
+      margin-top: 20px;
+    margin-left: 50px;
+    padding-right: 50px;
+}
+.arrow{
+      position: absolute;
+    bottom: -15px;
+        right: 25px;
+}
+#comment-myCarousel.carousel.slide{
+  margin-top: 0px;
+}
+.footer-m{
+  background-color:  #691b1d;
+     padding-top: 35px !important;
+  margin:0px;
+ 
+}
+footer{
+   display: flex;
+  justify-content: center;
+background-color:  #691b1d !important;
+padding-left: 15px;
+padding-right: 15px; 
+}
+.footer-m h4{
+ font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    background: #5c1315;
+    color: #f7f7f7;
+    padding: 12px 15px;
+    margin-bottom: 32px;
+}
+.footer-m h4 i{
+  float:right;
+}
+
+.title{
+      background: #5c1315;
+      color: white;
+}
+.company {
+  color: white;
+
+}
+.company p{
+      margin-bottom: 32px;
+}
+.company .social a{
+      color: #fff;
+    padding: 12px;
+    border: 1px solid #fff;
+    margin-right: 3px;
+    border-radius: 10px 0px 10px 0px;
+}
+.social {
+  margin-bottom: 32px;
+  margin-top: 44px;
+}
+.knowledge {
+  color: white;
+
+}
+.contact-form {
+  color: white;
+
+}
+.media{
+  margin-bottom: 28px;
+}
+.media1{
+  padding: 0px !important;
+    margin-bottom: 0px !important;
+    background-color: #691b1d !important;
+}
+.form-control{
+      background-color: #691b1d !important;
+      border-radius:0px !important;
+      margin-bottom: 10px !important;
+}
+.btn-default{
+  background: #691b1d !important;
+  float: right;
+  color: white;
+  width: 144px;
+  margin-bottom: 28px;
+}
+.copyright{
+  padding: 15px;
+  background: #5c1315;
+    text-align: center;
+    color: white;
+}
+form {
+    margin: 0
+}
+a {
+  color: #333; 
+    cursor: pointer
+}
+a, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+input, input:focus {
+    outline: none
+}
+.container .container-fluid {
+    max-width: 1900px;
+    height: auto;
+}
+footer{
+  background-color: #2E2C2F;
+}
+body,h1,h2,h3,h4,p,a {
+  font-family: 'Roboto', sans-serif;
+      margin: 0;
+    padding: 0;
+}
+/* ==========================================================================
+   Responsive CSS Landscape Desktop
+   ========================================================================== */
+@media only screen and (min-width: 1300px) {
+    .container  {
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+    }
+    .container-fluid{
+      width: 100%;
+    }
+
+.collapse{
+    font-size: 20px;
+    transform: translate(35%,-100%);
+  }
+  .icon{
+        padding-top: 700px;
+  }
+.felling{
+    background: fixed;
+  justify-content: center;
+      padding: 60px 300px !important;
+}
+section #product{
+    display:  fixed !important;
+  justify-content: center !important;
+      background: #691b1d !important;
+}
+.infonsx{
+     padding: 55px 120px 120px 120px;
+     text-align: center;
+}
+.infonsx h3,h4{
+  font-size: 36px;
+  font-weight: bold;
+
+  }
+.felling h3{
+  font-size: 36px;
+}
+hr{
+      margin-bottom: 18px;
+}
+#myCarousel{
+  width: 40%;
+    float: right;
+    height: 625px;
+        margin-top: 0px;
+}
+.info{
+      width: 60%;
+    float: right;
+    height: 625px;
+    margin-top: 0px;
+}
+}
+@media only screen and (min-width: 1239px) and (max-width: 1299px) {
+   .container  {
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+    }
+    .container-fluid{
+      width: 100%;
+    }
+.felling h3{
+      font-size: 36px;
+}
+.infonsx{
+  padding: 55px 15px 55px 15px;
+}
+.infonsx h3,h4{
+  font-size: 36px;
+  font-weight: bold;
+
+  }
+  }
+ /* ==========================================================================
+   Responsive CSS Landscape Tablet
+   ========================================================================== */
+@media only screen and (min-width: 960px) and (max-width: 1240px) {
+.container  {
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+    }
+    .container-fluid{
+      width: 100%;
+    }
+    header .hotline{
+      width: 25%;
+    top: 30%;
+}
+header .head h1 img{
+  width: 70%;
+  padding-top: 30px;
+}
+.collapse{
+      transform: translate(30%,-90%) !important;
+    font-size: 20px;
+}
+.infonsx h3,h4{
+  font-size: 36px;
+  font-weight: bold;
+
+  }
+  .infonsx{
+  padding: 55px 15px 55px 15px;
+}
+.felling{
+      padding: 60px 15px;
+}
+.felling h3{
+      font-size: 36px;
+}
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Tablet
+   ========================================================================== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container  {
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+    }
+    .container-fluid{
+      width: 100%;
+    }
+.collapse{
+      /*transform: translate(50%,-50%) !important;*/
+      
+      
+       transform: translate(50%,-150%);
+        position: absolute;
+}
+header .head h1 img{
+  width: 50%;
+      padding-top: 15px;
+}
+header .hotline{
+      width: 25%;
+    top: 30%;
+}
+.infonsx{
+  padding: 30px 15px 30px 15px;
+}
+.infonsx h3,h4{
+  font-size: 36px;
+  font-weight: bold;
+}
+.felling{
+      padding: 60px 15px;
+}
+.felling h3{
+  font-size: 36px;
+}
+.info-p p.name{
+     padding-top: 20px;
+    color: #691b1d;
+    font-weight: bold;
+    background: #ebebeb;
+    font-size: 20px;
+}
+}
+
+
+/* ==========================================================================
+   Responsive CSS Landscape Mobile
+   ========================================================================== */
+@media only screen and (max-width: 767px) {
+  .container{
+    padding: 0px;
+  }
+  header .navbar-head h1 {
+        padding: 15px 0px;
+        width: 50%;
+        line-height: 0;
+        margin-top: 0px;
+         margin-bottom: 0px;
+    }
+
+    header .head ul {
+        padding: 0;
+    }
+
+    header .hotline {
+        width: 40%;
+        position: initial;
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    header .head button {
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+.container .product{
+      padding: 70px 15px 0px 15px;
+}
+.infonsx{
+  padding: 30px 15px 30px 15px;
+}
+.infonsx h3{
+  font-size: 27px;
+}
+.infonsx h4{
+  font-size: 27px;
+}
+.felling{
+      padding: 60px 15px;
+}
+.info-p p.name{
+     padding-top: 20px;
+    color: #691b1d;
+    font-weight: bold;
+    background: #ebebeb;
+}
+.copyright{
+  font-size: 14px;
+}
+}
+
+
+/* ==========================================================================
+   Responsive CSS Portrait Mobile
+   ========================================================================== */
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+ 
+}
