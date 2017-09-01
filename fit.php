@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="container">
-		<header>
+		<header style="    background: #691b1d;">
 			<div class="container-fluid">
 				<div class="head">
 					<div class="navbar-head">
@@ -104,7 +104,8 @@
                             </div>
 				</div>
 			</section>	
-			<section class="info-nsx">
+			<section class="info-nsx" style="    display: flex;
+    justify-content: center;">
 				<div class="container infonsx">
                         <h3><i class="fa fa-info" aria-hidden="true"></i> THÔNG TIN NHÀ SẢN XUẤT</h3>
                         <hr>
@@ -131,7 +132,8 @@
                         </h4>
                     </div>
 			</section>
-			<section id="felling">
+			<section id="felling" style="    display: flex;
+    justify-content: center;">
 				<div class="container felling">
 					<h3><i class="fa fa-comments-o" arria-hidden="true"></i>"CẢM NHẬN NGƯỜI SỬ DỤNG"</h3>
 					<hr>
