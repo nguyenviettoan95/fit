@@ -137,6 +137,11 @@ h5{
 .icon img{
   margin: 0px 32px 50px 32px;
 }
+section .info-nsx{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .infonsx{
   color: #691b1d;
   text-align: center;
